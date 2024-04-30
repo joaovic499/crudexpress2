@@ -12,4 +12,9 @@ export class FruitService {
   getAll(){
     return this.httpClient.get<Fruit[]>('http://localhost:3000/fruits');
   }
+
+  create(data: Fruit) {
+    return this.httpClient.post('http://localhost:3000/fruits', data)
+
+  }
 }
