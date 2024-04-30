@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FruitModule } from './fruit/fruit.module';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HttpClientModule,
     CommonModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    FruitModule
   ],
   providers: [
     provideClientHydration()
