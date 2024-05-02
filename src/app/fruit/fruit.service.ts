@@ -17,4 +17,17 @@ export class FruitService {
     return this.httpClient.post('http://localhost:3000/fruits', data)
 
   }
+
+  edit(id: number) {
+    return this.httpClient.get<Fruit>(`http://localhost:3000/fruits/${id}`);
+
+  }
+
+  update(data: Fruit) {
+    return this.httpClient.put<Fruit>(`http://localhost:3000/fruits/${data.id}`, data)
+  }
+
+  delete(id: number) {
+    return this.httpClient.delete<Fruit>(`http://localhost:3000/fruits/${id}`);
+  }
 }

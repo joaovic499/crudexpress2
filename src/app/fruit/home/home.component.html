@@ -16,7 +16,9 @@
         <td>{{ item.name }}</td>
         <td>{{ item.quantity }}</td>
         <td>{{ item.price }}</td>
-        <td> <a href="" class="btn btn-primary" [routerLink]="['/fruit/edit', item.id]"> Edit </a></td>
+        <td> <a href="" class="btn btn-primary" [routerLink]="['/fruit/edit', item.id]"> Edit </a>
+        <button type="button" (click)="deleteItem(item.id)" class="btn btn-danger ms-2">Delete</button>
+      </td>
       </tr>
     </tbody>
   </table>
