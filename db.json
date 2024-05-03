@@ -1,8 +1,8 @@
 {
   "fruits": [
     {
-      "id": 0,
-      "name": "Maçã Verde",
+      "id": "0",
+      "name": "Maçã Verdee",
       "quantity": 20,
       "price": 100
     }

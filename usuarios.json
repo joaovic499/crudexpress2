@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "João Victor",
+      "lastName": "Silva",
+      "email": "joao@silva.com",
+      "mobile": "982161186",
+      "salary": "80,000"
+    },
+    {
+      "id": 2,
+      "firstName": "João Souza",
+      "lastName": "Silva",
+      "email": "joaos@silva.com",
+      "mobile": "992161186",
+      "salary": "82,000"
+    },
+    {
+      "id": 3,
+      "firstName": "João Pedro",
+      "lastName": "Oliveira",
+      "email": "joaope@silva.com",
+      "mobile": "972161186",
+      "salary": "81,000"
+    }
+  ],
+  "signupUsers": [
+    {
+      "id": "4140",
+      "fullname": "joaovictorsilva60@live.com",
+      "email": "joaovictorsilva60@live.com",
+      "password": "123",
+      "mobile": "17982161186"
+    },
+    {
+      "id": "44e5",
+      "fullname": "joao",
+      "email": "joao123@joao.com",
+      "password": "1234",
+      "mobile": "123"
+    },
+    {
+      "id": "7551",
+      "fullname": "joao",
+      "email": "a1@a1.com",
+      "password": "123",
+      "mobile": "123"
+    },
+    {
+      "id": "eeda",
+      "fullname": "joao",
+      "email": "joao@joao.com",
+      "password": "123",
+      "mobile": "1234"
+    },
+    {
+      "id": "2c97",
+      "fullname": "joaoo",
+      "email": "j@j.com",
+      "password": "1234",
+      "mobile": "1234"
+    },
+    {
+      "id": "99c4",
+      "fullname": "asd",
+      "email": "j1@j.com",
+      "password": "123",
+      "mobile": "123"
+    },
+    {
+      "id": "f4b7",
+      "fullname": "asd",
+      "email": "b1@b1.com",
+      "password": "123",
+      "mobile": "123"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

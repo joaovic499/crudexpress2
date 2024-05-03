@@ -7,11 +7,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FruitModule } from './fruit/fruit.module';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +25,8 @@ import { FruitModule } from './fruit/fruit.module';
     CommonModule,
     ReactiveFormsModule,
     FormsModule,
-    FruitModule
+    FruitModule,
+
   ],
   providers: [
     provideClientHydration()
