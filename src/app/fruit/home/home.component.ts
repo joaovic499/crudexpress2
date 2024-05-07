@@ -4,6 +4,7 @@ import { FruitService } from './../fruit.service';
 import { Component, OnInit } from '@angular/core';
 import {Router } from '@angular/router'
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -13,6 +14,7 @@ export class HomeComponent implements OnInit {
 
 
   allfruits: Fruit[] = [];
+  cookieService: any;
   constructor(private fruitService: FruitService, private authService: AuthService, private router: Router) {}
 
   ngOnInit(): void {
@@ -35,5 +37,7 @@ export class HomeComponent implements OnInit {
       },
     })
   }
+
+
 
 }

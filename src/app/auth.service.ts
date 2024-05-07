@@ -14,7 +14,6 @@ export class AuthService {
     return this.http.get<any>('http://localhost:3001/signupUsers').pipe(
       map(response => {
           const user = response.find((u: any) => u.email == email && u.password == password);
-          console.log(user, email, password, response);
           if (user) {
             this.isLoggedInStatus = true;
             localStorage.setItem('currentUser', JSON.stringify(user));

@@ -1,6 +1,5 @@
 {
   "signupUsers": [
-
     {
       "id": "44e5",
       "fullname": "joao",
@@ -180,6 +179,13 @@
       "id": "240c",
       "fullname": "asdsa",
       "email": "asss@asss.com",
+      "password": "123",
+      "mobile": "1234"
+    },
+    {
+      "id": "7f58",
+      "fullname": "jjjj",
+      "email": "jxx@jxx.com",
       "password": "123",
       "mobile": "1234"
     }

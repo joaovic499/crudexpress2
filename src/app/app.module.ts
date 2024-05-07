@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
+import { CookieService } from 'ngx-cookie-service';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -29,7 +30,7 @@ import { SignupComponent } from './signup/signup.component';
 
   ],
   providers: [
-    provideClientHydration()
+    CookieService
   ],
   bootstrap: [AppComponent]
 })
